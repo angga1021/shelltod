@@ -257,7 +257,7 @@ const functionRegist = (deviceId, nomor, token) => new Promise((resolve, reject)
                             if(getOtp.includes('Dear Customer')){
                                 statusOtp = true;
                             }
-                        } while(!getOtp.includes('Dear Customer') && countGetOtp <= 300)
+                        } while(!getOtp.includes('Dear Customer') && countGetOtp <= 200)
 
                         if(statusOtp == true){
 
