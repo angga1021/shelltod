@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 var randomize = require('randomatic');
 var random = require('random-name');
 
-var keyOtp = ''
+var keyOtp = '' // api key smshub
 var reffCode = ''
 
 const functionGetNumber = () => new Promise((resolve, reject) => {
