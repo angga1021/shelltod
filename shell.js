@@ -2,8 +2,8 @@ const fetch = require('node-fetch');
 var randomize = require('randomatic');
 var random = require('random-name');
 
-var keyOtp = '' // api key smshub
-var reffCode = ''
+var keyOtp = '' //107415Ub91fe396b534af4b012a87b14b1f29cd
+var reffCode = ''1an1730aj
 
 const functionGetNumber = () => new Promise((resolve, reject) => {
     fetch(`https://smshub.org/stubs/handler_api.php?api_key=${keyOtp}&action=getNumber&service=ot&operator=&country=6`, { 
